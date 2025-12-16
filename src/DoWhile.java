@@ -23,7 +23,9 @@ public class DoWhile {
                 cont-=1;
                 System.out.println("Incorrecto, intentos restantes: "+ cont );
                 if (cont<=0){
+                    System.out.println("================");
                     System.out.println("CUENTA BLOQUEADA");
+                    System.out.println("================");
                 }
             }
         } while (cont>0 );
